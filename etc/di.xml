@@ -8,4 +8,8 @@
         </arguments>
     </type>
 
+    <type name="Magento\Framework\Mail\MimePart">
+        <plugin name="humanelement_config_email_encoding" type="HumanElement\ConfigurableEmailEncoding\Plugin\MimePartContent"/>
+    </type>
+
 </config>

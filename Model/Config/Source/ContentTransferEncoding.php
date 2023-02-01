@@ -16,6 +16,10 @@ class ContentTransferEncoding implements OptionSourceInterface
             [
                 'label' => '7bit',
                 'value' => MimeInterface::ENCODING_7BIT,
+            ],
+            [
+                'label' => 'base64',
+                'value' => MimeInterface::ENCODING_BASE64,
             ]
         ];
     }
